@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>驱动之家</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-moblie-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="swper/swiper-3.4.1.min.css">
+	<script src="swper/swiper-3.4.1.min.js"></script>
+	<script src="js/jquery-1.10.1.js"></script>
+	<script>
+		var html=document.documentElement;
+		html.style.fontSize=20*html.clientWidth/320+'px';
+		window.onresize=function(){
+			html.style.fontSize=20*html.clientWidth/320+'px';
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<a href="javascript:;" class="logo">驱动之家</a>
+		<a href="javascript:;" class="change">传统版</a>
+	</header>
+	<nav>
+		<ul class="nav-box">
+			<li class="on">
+				<a href="javascript:;">全部</a>
+			</li>
+			<li>
+				<a href="javascript:;">硬件</a>
+			</li>
+			<li>
+				<a href="javascript:;">软件</a>
+			</li>
+			<li>
+				<a href="javascript:;">手机</a>
+			</li>
+			<li>
+				<a href="javascript:;">科技</a>
+			</li>
+		</ul>
+	</nav>
+	<script>
+		var aLi=$('.nav-box li');
+		aLi.on('click',function(){
+			aLi.removeClass('on');
+			$(this).addClass('on');
+		})
+	</script>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+	        <a href="javascript:;" class="swiper-slide">
+	        	<img src="images/1.jpg">
+		        <div class="opa">
+					<div class="filer"></div>
+					<p>这么美的风景你知道吗</p>
+				</div>
+	        </a>
+	        <a href="javascript:;" class="swiper-slide">
+	        	<img src="images/1.jpg">
+		        <div class="opa">
+					<div class="filer"></div>
+					<p>这么美的风景你知道吗</p>
+				</div>
+	        </a>
+	        <a href="javascript:;" class="swiper-slide">
+	        	<img src="images/1.jpg">
+		        <div class="opa">
+					<div class="filer"></div>
+					<p>这么美的风景你知道吗</p>
+				</div>
+	        </a>
+	    </div>
+	</div>
+    <script>
+		var mySwiper = new Swiper('.swiper-container',{
+			autoplay : 2500,
+			autoplayDisableOnInteraction : false,	
+			loop : true,
+		})    
+	</script>
+	<div class="main">
+		<ul>
+			<li>
+				<a href="javascript:;" class="title">PSV版《生化奇兵》到底还有木有了？</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:;" class="title">PSV版《生化奇兵》到底还有木有了？到底还到底还</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:;" class="title">PSV版《生化奇兵》到底还有木有了？</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:;" class="title">PSV版《生化奇兵》到底还有木有了？到底还到底还</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:;" class="title">PSV版《生化奇兵》到底还有木有了？到底还到底还</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+		</ul>
+	<div>
+	<div class="main2">
+		<ul>
+			<li class="first">
+				<a href="javascript:;" class="main2-left">
+					<img src="images/3.png">
+					<p>触目惊心 揭秘ipone翻新全过程</p>
+				</a>
+				<a href="javascript:;" class="main2-right">
+					<img src="images/3.png">
+					<p>东芝消费级5TB硬盘突然上市 真便宜</p>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;" class="title">真正有生命的鞋子：活体细胞合成材料制成</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:;" class="title">做工若何？神州599元5寸四核机大拆解</a>
+				<div>
+					<a href="javascript:;">萧萧</a>
+					<span></span>
+					<p>5分钟前</p>
+					<a href="javascript:;" class="ico"><h4>2</h4></a>
+				</div>
+			</li>
+			<li class="main2-last">
+				<a href="javascript:;">【下一页】</a>
+			</li>
+		</ul>
+	</div>
+	<footer>
+		<div>
+			<a href="javascript:;" class="foot-left">Pad版</a>
+			<span></span>
+			<h2>触屏版</h2>
+			<span></span>
+			<a href="javascript:;" class="foot-right">传统版</a>
+		</div>
+		<p>京ICP备 11024344号-7 驱动之家 京公网安</p>
+	</footer>
+</body>
+</html>
